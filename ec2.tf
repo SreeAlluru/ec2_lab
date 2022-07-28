@@ -7,7 +7,7 @@ resource "aws_instance" "ansible_server" {
   vpc_security_group_ids = [aws_security_group.ansible_server.id]
   #keypair
   key_name = "talent-acedemy-lab"
-  subnet_id = data.aws_subnet.Public.id
+  subnet_id = data.aws_subnet.public.id
   #EIP
   tags = {
     Name = "Ansible server"
