@@ -1,0 +1,6 @@
+[web]
+54.155.247.113
+
+[web:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file= ~/.ssh/talent-acedemy-lab.pem 

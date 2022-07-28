@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../TA-VPC-Training"
+		},
+		{
+			"path": "../backend-tf-lab"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
